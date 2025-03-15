@@ -47,12 +47,12 @@ export const data = [
     },
     { 
         id: 0,
-        name:"some",
+        name:"sample",
         type:"etc",
     },
     { 
         id: 0,
-        name:"some",
+        name:"logo",
         type:"etc",
     },
     { 

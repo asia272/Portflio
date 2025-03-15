@@ -12,12 +12,12 @@ const Contact = () => {
           </div>
           <div className="info-content">
             <p><span>Age:</span> 19</p>
-            <p><span>Education:</span> Intermediate</p>
-            <p><span>Phone:</span> ererere</p>
-            <p><span>Email:</span> farihajameel@gmail.com</p>
-            <p><span>Residence:</span> Lahoure</p>
-            <p><span>Address:</span> Un_know</p>
             <p><span>Phone:</span> +92 346 4445008</p>
+            <p><span>Education:</span> Intermediate</p>
+            <p><span>Email:</span> farihajameel@gmail.com</p>
+            <p><span>Residence:</span> Lahore </p>
+            <p><span>Address:</span> Un_know</p>
+
           </div>     
       </div>
     </div>
