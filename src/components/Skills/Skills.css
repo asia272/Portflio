@@ -1,0 +1,33 @@
+.skills-container {
+    margin-top: 20px;
+    width: 60%;
+    padding: 1rem;
+  }
+  
+  .skills-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .skills-list li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    font-weight: bold;
+    background-color: var(--skill-bg);
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+  } 
+.skills-list li:hover {
+    transform:  rotate(10deg); /* Moves left & rotates */
+}
+@media(max-width:600px){
+    .skills-container{
+        width: 100%;
+    }
+}

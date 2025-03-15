@@ -1,0 +1,41 @@
+
+ .about-container{
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+ }
+ .about-photo{
+   position: relative;
+   border-radius: 30px;
+ }
+ .about-photo::before{
+   content: '';
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   background-color: rgba(29, 4, 39, 0.67);
+   border-radius: 50px;
+ }
+ .about-container img{
+    width: 100%;
+    display: block;
+    border-radius: 20px;
+ }
+ .about-text{
+    text-align: justify;
+ }
+@media (max-width:700px) {
+    .about-container{
+        flex-direction: column;
+    }
+    .about-content{
+        text-align: center;
+     }
+}
+strong{
+   color: rgba(216, 74, 216, 0.671);
+   font-style: oblique;
+}

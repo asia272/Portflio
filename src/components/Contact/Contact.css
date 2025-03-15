@@ -1,0 +1,33 @@
+.my-info{
+    width: 50%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 2rem;
+    border: 1px solid   rgba(216, 74, 197, 0.67);
+    border-radius: 40px;
+
+}
+.my-info span{
+    font-weight: bold;
+    font-size: 18px;
+    color:  rgba(216, 74, 197, 0.67);
+}
+.my-boi{
+    color:  rgba(216, 74, 197, 0.67);
+}
+.my-info p{
+
+    font-weight: 400;
+}
+
+
+
+@media (max-width:600px) {
+    .my-info{
+        width: 100%;
+    }
+    
+}

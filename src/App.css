@@ -1,0 +1,21 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+.section{
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 2rem;
+}
+@media (max-width:550px) {
+    .section{
+        padding: 1rem;
+    }
+}
