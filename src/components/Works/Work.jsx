@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import WorkCard from './WorkCard';
 import { btns, data } from './data';
+import "./Work.css"
 
 const Work = () => {
   let [work, setWork] = useState(data);
@@ -19,7 +20,7 @@ const Work = () => {
   return (
     <div className='section' id='works'>
       <h1>My Works</h1>
-      <div className="work">
+  
         <div className="btns-box">
           {btns.map((btn, idx) => (
             <button 
@@ -30,11 +31,11 @@ const Work = () => {
               {btn}
             </button>
           ))}
-        </div>
-        <div className="work-container">
+    
+      </div>
+      <div className="work-container">
           <WorkCard work={work} />
         </div>
-      </div>
     </div>
   );
 };

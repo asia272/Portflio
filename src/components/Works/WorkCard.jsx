@@ -1,13 +1,13 @@
 import React from 'react';
+import "./Work.css"
 
 const WorkCard = ({ work }) => {
   return (
-    <div>
+    <div className='works-container'>
       {work.map((item, index) => (
         <div key={index} className="work-item">
           <img src={item.image} alt={item.title} />
-          <h3>{item.title}</h3>
-          <p>{item.type}</p>
+          <p>{item.name} <span>{item.type}</span></p>
         </div>
       ))}
     </div>

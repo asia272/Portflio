@@ -16,7 +16,7 @@ const Navbar = () => {
     <div className='Navbar'>
       <div className="logo-part">
       <div className="logo">
-        <h1> Fariha</h1>
+        <h1> Asia</h1>
       </div>
       <div className="toggle-btn" onClick={toggleMenu} >
         {isActive ?<CloseIcon fontSize="large"/> :<MenuIcon fontSize="large"/> }

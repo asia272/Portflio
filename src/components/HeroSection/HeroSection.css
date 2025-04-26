@@ -41,7 +41,8 @@
    color: rgba(216, 74, 216, 0.671);
 }
 .name{
-    font-size: 3rem;
+    font-size: 3rem !important;
+    color: white  !important;
 }
 .passion{
     font-size:1.8rem;

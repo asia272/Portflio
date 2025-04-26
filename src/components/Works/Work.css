@@ -1,0 +1,112 @@
+
+#works{
+    display: flex;
+}
+.btns-box{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 0.6rem;
+    padding: 0.88rem;
+}
+.btns-box button{
+    font-weight: 700 !important;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: transparent;
+    color: var(--body-text);
+    line-height: 1;
+    padding: 0.6rem 1.48rem;
+    border: 1px solid purple;
+    margin: 0px 0px 0.68rem ;
+    border-radius: 1.33rem ;
+    transition: all 0.3s ease-in;
+}
+.btns-box button:hover{
+background-color: purple;
+}
+.btns-box button:active{
+    transform: scale(0.8);
+}
+.active{
+    background-color: purple !important;
+}
+/* Works container */
+.works-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.work-item{
+    height: 250px;
+    width: 250px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+  
+
+}
+.works-container img{
+    width:200px;
+    max-height: 200px;
+    border-radius: 12px;
+
+}
+.work-item p{
+    margin-top: 1rem;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.work-item p span{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: lowercase;
+    color: purple;
+    letter-spacing: 1px;
+}
+@media (max-width:445px) {
+    .btns-box{
+        flex-wrap: wrap;
+        align-items: start;
+        justify-content: start;
+    }
+    .btns-box button{
+      margin: 0;
+      padding: 0.5rem 1rem;
+      font-size: 16px;
+    }
+    #works{
+       gap: 0.55rem;
+    }
+    
+}
+@media (max-width:600px) {
+    
+}
+@media(max-width:500px) {
+    .works-container{
+        gap: 1rem;
+    }
+    .work-item{
+    width: 150px !important;
+    }
+    .works-container img{
+        width: 100%;
+    }
+}
+@media (max-width:432px) {
+    .work-item{
+    width: 100% !important;
+    }
+    .works-container img{
+        width: 100%;
+    }
+}
